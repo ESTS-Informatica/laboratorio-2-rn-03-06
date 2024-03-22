@@ -68,6 +68,10 @@ public class Property {
 
     @Override
     public String toString() {
-        return null;
+        
+        String ouptut= String.format("Descricao : %s\n", this.description);
+        ouptut += String.format("Preco : %s Euros", this.price);
+        return ouptut;
+        
     }
 }
